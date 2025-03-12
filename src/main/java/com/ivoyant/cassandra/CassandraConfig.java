@@ -9,4 +9,10 @@ public class CassandraConfig {
     public @Bean CqlSession session() {
         return CqlSession.builder().withKeyspace("product").build();
     }
+
+
+
+
+
+
 }
